@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../style/style.css">
+    <meta http-equiv="Content-Type" content="text/php; charset=UTF-8">
+
+    <title>WeB form</title>
+</head>
+
+<body>
+
+
+    <div>
+
+        <form action="links.php" method="GET">
+
+            <h1> Введіть інформацію про себе</h1>
+            <h3>Контактна інформація:</h3>
+
+            <p> <input type="text" name="last_name" id="" placeholder="Прізвище:"></p>
+            <p> <input type="text" name="first_name" id="" placeholder="Ім'я:"></p>
+            <p> <input type="text" name="home_phone" id="" placeholder="Домашній телефон:"></p>
+            <p> <input type="text" name="email" id="" placeholder="Ваш Email:"></p>
+
+            <h3>Інформація про навчальний заклад</h3>
+
+            <p> <input type="text" name="vuz_name" id="" placeholder="Назва ВУЗа:"></p>
+            <p> <input type="text" name="fac_name" id="" placeholder="Факультет:"></p>
+            <p> <input type="text" name="kurs" id="" placeholder="Курс:"></p>
+
+            <h3>Ваші захоплення:</h3>
+            <div class="radio-btn">
+
+                <p>
+                    <label><input type="radio" name="hobby"> Комп'ютерні ігри</label>
+                </p>
+                <p>
+                    <label><input type="radio" name="hobby"> Шахи</label>
+                </p>
+                <p>
+                    <label><input type="radio" name="hobby"> Спорт</label>
+                </p>
+                <p>
+                    <label><input type="radio" name="hobby"> Мистецтво</label>
+                </p>
+
+            </div>
+            <div class="btn">
+                <p><input class="btn_sbm" type="submit" name="Надіслати" value="Надіслати"></p>
+                <input class=" btn_sbm" type="submit" name="Відмінити" value="Відмінити"></p>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+
+</html>
